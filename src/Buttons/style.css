@@ -1,0 +1,22 @@
+.section__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+    border: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.section__buttons:hover {
+    color: hsl(180, 80%, 25%);
+}
+
+.section__buttons:active {
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 5px;
+}
+
+.section__buttons:disabled {
+    color: #ddd;
+}
