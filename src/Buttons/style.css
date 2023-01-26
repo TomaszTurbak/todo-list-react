@@ -1,22 +1,32 @@
-.section__buttons {
+.buttons {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    background: none;
-    border: none;
-    transition: 0.3s;
-    font-size: 15px;
 }
 
-.section__buttons:hover {
+.buttons__button {
+    background: transparent;
+    border: none;
+    color: teal;
+    transition: color 0.3s;
+    margin: 0 0 0 20px;
+}
+
+@media(max-width: 767px) {
+    .buttons__button {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
+
+.buttons__button:hover {
     color: hsl(180, 80%, 25%);
 }
 
-.section__buttons:active {
+.buttons__button:active {
     border: 2px solid hsl(0, 0%, 0%);
     border-radius: 5px;
 }
 
-.section__buttons:disabled {
+.buttons__button:disabled {
     color: #ddd;
 }
