@@ -6,7 +6,7 @@
 .buttons__button {
     background: transparent;
     border: none;
-    color: teal;
+    color: hsl(180, 100%, 20%);
     transition: color 0.3s;
     margin: 0 0 0 20px;
 }
@@ -19,12 +19,11 @@
 }
 
 .buttons__button:hover {
-    color: hsl(180, 80%, 25%);
+    color: hsl(180, 80%, 40%);
 }
 
 .buttons__button:active {
-    border: 2px solid hsl(0, 0%, 0%);
-    border-radius: 5px;
+    color: hsl(180, 80%, 50%);
 }
 
 .buttons__button:disabled {
