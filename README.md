@@ -1,12 +1,29 @@
-# Task List
+# To Do List (React)
 
-REPO: 
-
+REPO: https://github.com/TomaszTurbak/todo-list-react
 DEMO: https://tomaszturbak.github.io/todo-list-react/
 
-Description:
+## Description:
+An useful application for scheduling and executing tasks. It was created as a practical exercise in a YouCode FrontEnd Developer course. The main purpose was to practice of moving code made in VanillaJS (from my previous project of: https://github.com/TomaszTurbak/to-do-list) to React.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies used:
+
+- React.js
+- HTML
+- CSS
+- create-react-app
+- Webpack
+- Babel
+- BEM
+- Grid layout
+- @media queries
+
+
+## Interface preview
+
+![preview](https://github.com/TomaszTurbak/to-do-list/blob/master/images/preview.gif?raw=true)
 
 ## Available Scripts
 
