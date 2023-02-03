@@ -12,14 +12,33 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Technologies used:
 
 - React.js
+    - components
+    - JSX (JavaScript XML)
+    - Virtual DOM
+    - React Hooks
+    - React Context
+    - form input
+- JavaScript
+- ES6 syntax (ECMA Script 6 / ECMA Script 2015)
+    - destructuring
+    - arrow functions
+    - template strings
+    - classes
+    - modules
+        - export
+        - import
 - HTML
 - CSS
+- Developer tools
+    - Visual Studio Code
+    - Git
+    - React Developer Tools
 - create-react-app
 - Webpack
 - Babel
 - BEM
-- Grid layout
 - @media queries
+- README
 
 
 ## Interface preview
